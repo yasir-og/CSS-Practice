@@ -10,4 +10,12 @@ h1{
 }
 p{
     color: rgb(0, 0, 255); /* This is a blue color */
+
+    font-family: Arial, Helvetica, sans-serif; /* This is a font family */
+
+    font-size: 20px; /* This is a font size */
+
+    font-weight: bold; /* This is a font weight */
+
+    font: normal 20px Arial, Helvetica, sans-serif; /* This is a shorthand for font properties */
 }
