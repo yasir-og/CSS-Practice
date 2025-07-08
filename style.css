@@ -1,16 +1,7 @@
 /*MY CSS:EXTERNAL*/
 /* This is an external CSS file linked to the HTML document. */
-/*FIRST learning about color*/
-body{
-    background-color: coral;/* This is html8 color */
-    color: red;
-}
-h1{
-    color:#00ff00;/* This is a green color */
-}
-p{
-    color: rgb(0, 0, 255); /* This is a blue color */
 
+p{
     font-family: Arial, Helvetica, sans-serif; /* This is a font family */
 
     font-size: 20px; /* This is a font size */
@@ -18,4 +9,20 @@ p{
     font-weight: bold; /* This is a font weight */
 
     font: normal 20px Arial, Helvetica, sans-serif; /* This is a shorthand for font properties */
+
+    line-height: 1em; /* This is a line height */
+
+    margin: 0%; /* This is a margin */
+}
+
+.container/* This is a class selector for the container */
+{
+    width: 80%;/* This is a width of the container */
+    margin: auto; /* This is a margin to center the container */
+}
+
+.Box-1/* This is a class selector for Box-1 */
+{
+    background-color:#333; /* This is a dark background color */
+    color:#fff; /* This is a white text color */
 }
