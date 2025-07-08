@@ -1,5 +1,13 @@
 /*MY CSS:EXTERNAL*/
 /* This is an external CSS file linked to the HTML document. */
+/*FIRST learning about color*/
+body{
+    background-color: coral;/* This is html8 color */
+    color: red;
+}
 h1{
-    color:aqua
+    color:#00ff00;/* This is a green color */
+}
+p{
+    color: rgb(0, 0, 255); /* This is a blue color */
 }
