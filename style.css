@@ -12,7 +12,6 @@ p{
 
     line-height: 1em; /* This is a line height */
 
-    margin: 0%; /* This is a margin */
 }
 
 .container/* This is a class selector for the container */
@@ -25,4 +24,13 @@ p{
 {
     background-color:#333; /* This is a dark background color */
     color:#fff; /* This is a white text color */
+    border-top: 5px red solid; /* This is a top border of 5 pixels */
+    border-bottom: 5px red solid; /* This is a bottom border of 5 pixels */
+    border-right: 5px red solid; /* This is a right border of 5 pixels */
+    border-left: 5px red solid; /* This is a left border of 5 pixels */
+    /*OR we can use border: 5px red solid; to apply the same border to all sides*/
+    border-width: 3px; /* This is a border width of 3 pixels */
+    border-bottom-width: 10px; /* This is a bottom border width of 10 pixels */
+    border-top-style: dotted; /* This is a top border style of dotted */
+    border:5px solid red; /* This is a shorthand for border properties */
 }
