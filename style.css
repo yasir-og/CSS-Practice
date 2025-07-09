@@ -28,13 +28,24 @@ a:active{
 }
 
 a:visited{
-    color:black; /* This is a color of the link when visited */
+    color:blue; /* This is a color of the link when visited */
 }
 
 .container/* This is a class selector for the container */
 {
     width: 80%;/* This is a width of the container */
     margin: auto; /* This is a margin to center the container */
+}
+.button /* This is a class selector for the button */{
+    background-color: #333; /* This is a dark background color */
+    color:#fff; /* This is a white text color */
+    padding: 10px 15px; /* This is a padding of 15 pixels */;
+    border:none; /* This is a border of none */
+}
+.button:hover /* This is a selector for the button when hovered */
+{
+    background:red; /* This is a red background color when hovered */
+    color:#fff; /* This is a white text color when hovered */
 }
 
 .Box-1/* This is a class selector for Box-1 */
@@ -101,4 +112,18 @@ a:visited{
     padding-bottom: 6px; /* This is a padding of 6 pixels to the bottom */
     border-bottom: dotted 2px #ccc; /* This is a dotted border of 1 pixel to the bottom */
     list-style-image: url('../images/check.png'); /* This is a list style image */
+}
+.my-form /* This is a class selector for the form */
+{
+    padding:20px; /* This is a padding of 20 pixels */
+}
+.my-form .form-group /* This is a class selector for the form group */{
+    padding: bottom 15px; /* This is a padding of 15 pixels to the bottom */
+}
+.my-form label{
+    display:block; /* This is a display of block */
+}
+.my-form input[type="text"], .my-form textarea/* This is a class selector for the input and textarea inside the form */{
+    padding: 8px;/* This is a padding of 8 pixels */
+    width:100%; /* This is a width of 100% */
 }
