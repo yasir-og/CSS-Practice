@@ -33,4 +33,17 @@ p{
     border-bottom-width: 10px; /* This is a bottom border width of 10 pixels */
     border-top-style: dotted; /* This is a top border style of dotted */
     border:5px solid red; /* This is a shorthand for border properties */
+    /*Now we will use padding*/
+    padding-top: 20px; /* This is a top padding of 20 pixels */
+    padding-bottom: 20px; /* This is a bottom padding of 20 pixels */
+    padding-right: 20px; /* This is a right padding of 20 pixels */
+    padding-left: 20px; /* This is a left padding of 20 pixels */
+    padding: 20px; /* This is a shorthand for padding properties */
+    /*Now we will use margin*/
+    margin-top: 20px; /* This is a top margin of 20 pixels */
+    margin-bottom: 20px; /* This is a bottom margin of 20 pixels */
+    margin-right: 20px; /* This is a right margin of 20 pixels */
+    margin-left: 20px; /* This is a left margin of 20 pixels */
+    margin: 20px; /* This is a shorthand for margin properties */
+    
 }
