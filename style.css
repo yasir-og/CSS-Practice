@@ -14,6 +14,23 @@ p{
 
 }
 
+a{
+    text-decoration: none; /* This is a text decoration of none */
+    color: #000; /* This is a color of the link */
+}
+
+a:hover{
+    color:red; /* This is a color of the link when hovered */
+}
+
+a:active{
+    color:green; /* This is a color of the link when active */
+}
+
+a:visited{
+    color:black; /* This is a color of the link when visited */
+}
+
 .container/* This is a class selector for the container */
 {
     width: 80%;/* This is a width of the container */
@@ -47,7 +64,7 @@ p{
     margin: 20px; /* This is a shorthand for margin properties */
 }
 
-.Box-1 h1 /* This is a selector for h1 inside Box-1 */
+.Box-1 h1 /* This is a selector for h1(Hello World) inside Box-1 */
 {
     font-family: Tahoma;/* This is a font family */
     font-weight: 800; /* This is a font weight of 800 */
@@ -58,8 +75,30 @@ p{
     word-spacing: 1em; /* This is a word spacing of 1em */
 }    
 
-.Box-2{
+.Box-2 /* This is a class selector for Box-2(GoodBye World) */{
     border: 3px dotted #ccc; /* This is a dotted border of 3 pixels */
     padding: 20px; /* This is a padding of 20 pixels */
     margin: 20px 0; /* This is a margin of 20 pixels */
+}
+.Categories /*These are the category list in style*/
+{
+    border: 1px solid #ccc; /* This is a solid border of 1 pixel */
+    padding:10px; /* This is a padding of 10 pixels */
+    border-radius:15px; /* This is a border radius of 15 pixels */
+}
+.Categories h2 /* This is a selector for h2(Categories) inside categories */
+{
+    text-align: center;
+}
+.Categories ul /* This is a selector for ul inside categories */
+{
+    padding-left: 20px; /* This is a padding of 20 pixels to the left */
+    list-style: square; /* This is a list style type of square */
+    list-style:none; /* This is a list style type of none */
+}
+
+.Categories li{
+    padding-bottom: 6px; /* This is a padding of 6 pixels to the bottom */
+    border-bottom: dotted 2px #ccc; /* This is a dotted border of 1 pixel to the bottom */
+    list-style-image: url('../images/check.png'); /* This is a list style image */
 }
