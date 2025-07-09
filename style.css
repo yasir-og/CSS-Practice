@@ -45,5 +45,21 @@ p{
     margin-right: 20px; /* This is a right margin of 20 pixels */
     margin-left: 20px; /* This is a left margin of 20 pixels */
     margin: 20px; /* This is a shorthand for margin properties */
-    
+}
+
+.Box-1 h1 /* This is a selector for h1 inside Box-1 */
+{
+    font-family: Tahoma;/* This is a font family */
+    font-weight: 800; /* This is a font weight of 800 */
+    font-style: italic; /* This is a font style of italic */
+    text-decoration: underline; /* This is a text decoration of underline */
+    text-transform: uppercase; /* This is a text transform of uppercase */
+    letter-spacing: 0.2em; /* This is a letter spacing of 0.2em */
+    word-spacing: 1em; /* This is a word spacing of 1em */
+}    
+
+.Box-2{
+    border: 3px dotted #ccc; /* This is a dotted border of 3 pixels */
+    padding: 20px; /* This is a padding of 20 pixels */
+    margin: 20px 0; /* This is a margin of 20 pixels */
 }
