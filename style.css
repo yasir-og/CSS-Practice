@@ -47,7 +47,9 @@ a:visited{
     background:red; /* This is a red background color when hovered */
     color:#fff; /* This is a white text color when hovered */
 }
-
+.clr{
+    clear:both; /* This is a clear property to clear the float */
+}
 .Box-1/* This is a class selector for Box-1 */
 {
     background-color:#333; /* This is a dark background color */
@@ -126,4 +128,26 @@ a:visited{
 .my-form input[type="text"], .my-form textarea/* This is a class selector for the input and textarea inside the form */{
     padding: 8px;/* This is a padding of 8 pixels */
     width:100%; /* This is a width of 100% */
+}
+.block /* This is a class selector for the block */
+{
+   float:left; /* This is a float of left */
+   width:33.3%; /* This is a width of 33.3% */
+   border: 1px solid #ccc; /* This is a solid border of 1 pixel */
+   padding: 10px; /* This is a padding of 10 pixels */
+   box-sizing:border-box
+}
+#main-block /* This is an ID selector for the main block */{
+    float:left; /* This is a float of left */
+    width:70%; /* This is a width of 70% */
+    padding:15px; /* This is a padding of 15 pixels */
+    box-sizing: border-box; /* This is a box sizing of border box */
+}
+#sidebar /* This is an ID selector for the sidebar */{
+    float:right; /* This is a float of right */
+    width:30%; /* This is a width of 30% */
+    background-color:#333; /* This is a dark background color */
+    color:#fff; /* This is a white text color */
+    padding:15px; /* This is a padding of 15 pixels */
+    box-sizing: border-box; /* This is a box sizing of border box */
 }
