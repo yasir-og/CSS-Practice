@@ -16,7 +16,7 @@ p{
 
 a{
     text-decoration: none; /* This is a text decoration of none */
-    color: #000; /* This is a color of the link */
+    color: #000000; /* This is a color of the link */
 }
 
 a:hover{
@@ -37,14 +37,16 @@ a:visited{
     margin: auto; /* This is a margin to center the container */
 }
 .button /* This is a class selector for the button */{
-    background-color: #333; /* This is a dark background color */
-    color:#fff; /* This is a white text color */
-    padding: 10px 15px; /* This is a padding of 15 pixels */;
-    border:none; /* This is a border of none */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900; /* This is a font family */
+    background-color: #ffffff; /* This is a dark background color */
+    color:#000000; /* This is a white text color */
+    padding: 10px 10PX 10PX 10PX; /* This is a padding of 15 pixels */;
+    border:none; /* This is a border of none */;
 }
 .button:hover /* This is a selector for the button when hovered */
 {
-    background:red; /* This is a red background color when hovered */
+    background:rgb(94, 94, 94); /* This is a red background color when hovered */
     color:#fff; /* This is a white text color when hovered */
 }
 .clr{
@@ -89,9 +91,13 @@ a:visited{
 }    
 
 .Box-2 /* This is a class selector for Box-2(GoodBye World) */{
-    border: 3px dotted #ccc; /* This is a dotted border of 3 pixels */
+    border: 3px solid #555555; ;/* This is a dotted border of 3 pixels */
     padding: 20px; /* This is a padding of 20 pixels */
     margin: 20px 0; /* This is a margin of 20 pixels */
+}
+.Box-2:hover /* This is a selector for Box-2 when hovered */
+{
+    background-color: rgb(175, 175, 175); /* This is a red background color when hovered */
 }
 .Categories /*These are the category list in style*/
 {
